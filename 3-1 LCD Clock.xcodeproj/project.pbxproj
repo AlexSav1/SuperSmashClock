@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA16E5521E390B50002D9A84 /* SegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA16E5511E390B50002D9A84 /* SegmentView.m */; };
+		AA16E57D1E394556002D9A84 /* SegmentViewH.m in Sources */ = {isa = PBXBuildFile; fileRef = AA16E57C1E394556002D9A84 /* SegmentViewH.m */; };
+		AA16E5801E395C0D002D9A84 /* SegmentView2.m in Sources */ = {isa = PBXBuildFile; fileRef = AA16E57F1E395C0D002D9A84 /* SegmentView2.m */; };
+		AA6C58E21E37C31E002AE036 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6C58E11E37C31E002AE036 /* SettingsViewController.m */; };
+		AA7F0DC01E368ACA0067AAFF /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA7F0DBC1E368ACA0067AAFF /* digital-7 (italic).ttf */; };
+		AA7F0DC11E368ACA0067AAFF /* digital-7 (mono italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA7F0DBD1E368ACA0067AAFF /* digital-7 (mono italic).ttf */; };
+		AA7F0DC21E368ACA0067AAFF /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA7F0DBE1E368ACA0067AAFF /* digital-7 (mono).ttf */; };
+		AA7F0DC31E368ACA0067AAFF /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA7F0DBF1E368ACA0067AAFF /* digital-7.ttf */; };
 		AA9C237D1E2FB7DD00E02762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9C237C1E2FB7DD00E02762 /* main.m */; };
 		AA9C23801E2FB7DD00E02762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9C237F1E2FB7DD00E02762 /* AppDelegate.m */; };
 		AA9C23831E2FB7DD00E02762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9C23821E2FB7DD00E02762 /* ViewController.m */; };
 		AA9C23861E2FB7DD00E02762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9C23841E2FB7DD00E02762 /* Main.storyboard */; };
 		AA9C23881E2FB7DD00E02762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9C23871E2FB7DD00E02762 /* Assets.xcassets */; };
 		AA9C238B1E2FB7DD00E02762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9C23891E2FB7DD00E02762 /* LaunchScreen.storyboard */; };
+		AA9C23941E2FB9AD00E02762 /* DigitView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9C23931E2FB9AD00E02762 /* DigitView.m */; };
+		AA9C23961E2FBB1000E02762 /* DigitViewXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA9C23951E2FBB1000E02762 /* DigitViewXIB.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA16E5501E390B50002D9A84 /* SegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentView.h; sourceTree = "<group>"; };
+		AA16E5511E390B50002D9A84 /* SegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentView.m; sourceTree = "<group>"; };
+		AA16E57B1E394556002D9A84 /* SegmentViewH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentViewH.h; sourceTree = "<group>"; };
+		AA16E57C1E394556002D9A84 /* SegmentViewH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentViewH.m; sourceTree = "<group>"; };
+		AA16E57E1E395C0D002D9A84 /* SegmentView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentView2.h; sourceTree = "<group>"; };
+		AA16E57F1E395C0D002D9A84 /* SegmentView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentView2.m; sourceTree = "<group>"; };
+		AA6C58E01E37C31E002AE036 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		AA6C58E11E37C31E002AE036 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		AA7F0DBC1E368ACA0067AAFF /* digital-7 (italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (italic).ttf"; sourceTree = "<group>"; };
+		AA7F0DBD1E368ACA0067AAFF /* digital-7 (mono italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono italic).ttf"; sourceTree = "<group>"; };
+		AA7F0DBE1E368ACA0067AAFF /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
+		AA7F0DBF1E368ACA0067AAFF /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
 		AA9C23781E2FB7DD00E02762 /* 3-1 LCD Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3-1 LCD Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9C237C1E2FB7DD00E02762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA9C237E1E2FB7DD00E02762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +48,9 @@
 		AA9C23871E2FB7DD00E02762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9C238A1E2FB7DD00E02762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA9C238C1E2FB7DD00E02762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9C23921E2FB9AD00E02762 /* DigitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitView.h; sourceTree = "<group>"; };
+		AA9C23931E2FB9AD00E02762 /* DigitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigitView.m; sourceTree = "<group>"; };
+		AA9C23951E2FBB1000E02762 /* DigitViewXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DigitViewXIB.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +83,26 @@
 		AA9C237A1E2FB7DD00E02762 /* 3-1 LCD Clock */ = {
 			isa = PBXGroup;
 			children = (
+				AA7F0DBC1E368ACA0067AAFF /* digital-7 (italic).ttf */,
+				AA7F0DBD1E368ACA0067AAFF /* digital-7 (mono italic).ttf */,
+				AA7F0DBE1E368ACA0067AAFF /* digital-7 (mono).ttf */,
+				AA7F0DBF1E368ACA0067AAFF /* digital-7.ttf */,
 				AA9C237E1E2FB7DD00E02762 /* AppDelegate.h */,
 				AA9C237F1E2FB7DD00E02762 /* AppDelegate.m */,
 				AA9C23811E2FB7DD00E02762 /* ViewController.h */,
 				AA9C23821E2FB7DD00E02762 /* ViewController.m */,
 				AA9C23841E2FB7DD00E02762 /* Main.storyboard */,
+				AA6C58E01E37C31E002AE036 /* SettingsViewController.h */,
+				AA6C58E11E37C31E002AE036 /* SettingsViewController.m */,
+				AA9C23951E2FBB1000E02762 /* DigitViewXIB.xib */,
+				AA16E5501E390B50002D9A84 /* SegmentView.h */,
+				AA16E5511E390B50002D9A84 /* SegmentView.m */,
+				AA16E57E1E395C0D002D9A84 /* SegmentView2.h */,
+				AA16E57F1E395C0D002D9A84 /* SegmentView2.m */,
+				AA16E57B1E394556002D9A84 /* SegmentViewH.h */,
+				AA16E57C1E394556002D9A84 /* SegmentViewH.m */,
+				AA9C23921E2FB9AD00E02762 /* DigitView.h */,
+				AA9C23931E2FB9AD00E02762 /* DigitView.m */,
 				AA9C23871E2FB7DD00E02762 /* Assets.xcassets */,
 				AA9C23891E2FB7DD00E02762 /* LaunchScreen.storyboard */,
 				AA9C238C1E2FB7DD00E02762 /* Info.plist */,
@@ -109,6 +149,7 @@
 				TargetAttributes = {
 					AA9C23771E2FB7DD00E02762 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 37395SBTJ9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +177,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7F0DC21E368ACA0067AAFF /* digital-7 (mono).ttf in Resources */,
+				AA9C23961E2FBB1000E02762 /* DigitViewXIB.xib in Resources */,
+				AA7F0DC11E368ACA0067AAFF /* digital-7 (mono italic).ttf in Resources */,
+				AA7F0DC31E368ACA0067AAFF /* digital-7.ttf in Resources */,
+				AA7F0DC01E368ACA0067AAFF /* digital-7 (italic).ttf in Resources */,
 				AA9C238B1E2FB7DD00E02762 /* LaunchScreen.storyboard in Resources */,
 				AA9C23881E2FB7DD00E02762 /* Assets.xcassets in Resources */,
 				AA9C23861E2FB7DD00E02762 /* Main.storyboard in Resources */,
@@ -149,8 +195,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA16E57D1E394556002D9A84 /* SegmentViewH.m in Sources */,
+				AA16E5801E395C0D002D9A84 /* SegmentView2.m in Sources */,
 				AA9C23831E2FB7DD00E02762 /* ViewController.m in Sources */,
 				AA9C23801E2FB7DD00E02762 /* AppDelegate.m in Sources */,
+				AA6C58E21E37C31E002AE036 /* SettingsViewController.m in Sources */,
+				AA9C23941E2FB9AD00E02762 /* DigitView.m in Sources */,
+				AA16E5521E390B50002D9A84 /* SegmentView.m in Sources */,
 				AA9C237D1E2FB7DD00E02762 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37395SBTJ9;
 				INFOPLIST_FILE = "3-1 LCD Clock/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Meehan.--1-LCD-Clock";
@@ -280,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37395SBTJ9;
 				INFOPLIST_FILE = "3-1 LCD Clock/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Meehan.--1-LCD-Clock";
@@ -306,6 +359,7 @@
 				AA9C23911E2FB7DD00E02762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
